@@ -1,0 +1,59 @@
+.card {
+  border-radius: 50px;
+  filter: drop-shadow(5px 5px 15px black);
+}
+
+.inputlogin {
+  margin-top: 150px;
+  margin-left: 400px;
+  margin-right: 170px;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(225, 199, 143),
+    rgb(225, 199, 143)
+  );
+}
+.tagline {
+  background-color: rgb(112, 98, 51);
+  border-radius: 30px;
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-right: 400px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(225, 199, 143);
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}

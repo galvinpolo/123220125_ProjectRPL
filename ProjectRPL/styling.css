@@ -1,0 +1,30 @@
+.container{
+margin-top: 150px;
+margin-left: 400px;
+
+
+
+}
+
+.card{
+    border-radius: 50px;
+    filter: drop-shadow(5px 5px 15px black);
+}
+
+.inputlogin{
+margin-top: 150px;
+margin-left: 300px;
+margin-right:170px;
+
+
+}
+
+h5{
+font-weight: lighter;
+
+}
+
+body{
+
+    background-color: rgb(225, 199, 143);
+}
